@@ -20,7 +20,7 @@ export default function Home({ jsonItems }) {
         <title>MotoGeek</title>
       </Head>
 
-      <div className="flex justify-center m-10 flex-col items-center gap-2">
+      <div className="flex justify-center m-10 flex-col items-center gap-2 ">
         <Image
           src={motogeekLogo}
           alt="Motogeek logo"
@@ -47,8 +47,8 @@ export default function Home({ jsonItems }) {
                 <div className="text-center flex justify-center items-center gap-3">
                   <img
                     src={item.imageUrl}
-                    width={40}
-                    height={40}
+                    width={80}
+                    height={80}
                     className="rounded"
                   />
                   <span>{item.name}</span>
