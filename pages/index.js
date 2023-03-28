@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ShareSocial } from "react-share-social";
 import { ShareNetwork } from "@phosphor-icons/react";
 import { Popover } from "@headlessui/react";
+import motogeekLogo from "../public/Motogeek Logo.png";
 
 const style = {
   root: {
@@ -20,11 +21,14 @@ export default function Home({ jsonItems }) {
       </Head>
 
       <div className="flex justify-center m-10 flex-col items-center gap-2">
-        <div className="avatar">
-          <div className="w-24 rounded-full">
-            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" />
-          </div>
-        </div>
+        <Image
+          src={motogeekLogo}
+          alt="Motogeek logo"
+          height={80}
+          width={160}
+          className="rounded"
+        />
+
         <article className="prose text-center mb-4">
           <h2>MotoGeek</h2>
           <h4>
