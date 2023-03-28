@@ -30,7 +30,7 @@ export default function Home({ jsonItems }) {
         />
 
         <article className="prose text-center mb-4">
-          <h2>MotoGeek</h2>
+          <h2>MotoGeek.in</h2>
           <h4>
             The products listed on this page contain affiliate links.It won't
             cost you extra
